@@ -43,7 +43,7 @@
     list-style: none;
     display: flex;
     align-items: center;
-    width: 50rem;
+    max-width: 800px;
     margin: 0rem auto;
     border: 0.1rem solid rgba(0, 0, 0, 0.233);
     padding: 1rem;
@@ -51,10 +51,10 @@
   }
   
   .List-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
   .List-header h2 {
@@ -71,7 +71,7 @@
   .AddToList {
     display: flex;
     flex-direction: column;
-    width: 30rem;
+    max-width: 600px;
     margin: 4rem auto
   }
   
@@ -88,4 +88,17 @@
     font-weight: 700;
     color: white;
     border: none
+  }
+
+  @media (max-width: 800px) {
+    .List-header {
+        display: block;
+      }
+  }
+
+  @media (max-width: 370px) {
+      .App {
+          width: 370px;
+          margin: 0 auto;
+      }
   }

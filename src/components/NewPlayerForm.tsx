@@ -87,6 +87,7 @@ const NewPlayerForm: React.FC<IProps> = ({ playersData, setPlayersData }) => {
                 className='AddToList-Input'
                 value={newPlayer.age}
                 name='age'
+                min="1" max="100"
                 onChange={inputHandler}
 
             />
@@ -99,7 +100,7 @@ const NewPlayerForm: React.FC<IProps> = ({ playersData, setPlayersData }) => {
                 required
             />
             <button onClick={newInput} className='AddToList-btn'>Add new player!</button>
-            {!correctValues ? <p>Fill all gaps!</p> : null}
+            {!correctValues ? <p>Fill correctly all of the gaps!</p> : null}
         </div>
     )
 }
