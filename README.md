@@ -1,6 +1,4 @@
-Simple React App created to practise some basic concepts of Typescript. [LIVE VERSION](https://sensational-rugelach-91d8e0.netlify.app/)
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Simple React App created to practise some basic concepts of Typescript. [LIVE VERSION](https://sensational-rugelach-91d8e0.netlify.app/)
 
 ## Available Scripts
 
